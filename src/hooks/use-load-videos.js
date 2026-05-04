@@ -8,11 +8,10 @@ export const useLoadVideos = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setIsLoading(true);
     const fetchData = async () => {
       const response = await fetchYoutubeVideos();
 
-      if (response.success) {
+      if (response.data) {
         setVideoData(response.data);
       }
 
