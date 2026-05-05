@@ -1,6 +1,6 @@
-# Auth App
+# Free Api Youtube Application
 
-This is an web application to display thumbanails from youtube.
+This is an web application to display thumbanails from youtube using the free api.
 
 ## Pages
 
